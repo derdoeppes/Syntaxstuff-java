@@ -282,19 +282,19 @@ public class Main {
 
         String[][] firstAndLastName = new String[5][2];         // 5 Namen und für jeden Namen einen Nachnamen (kann man sich wie eine Tabelle mit Zeilen und Spalten vorstellen)
 
-        firstAndLastName[0][0] = "Nils";
+        firstAndLastName[0][0] = "Nils ";
         firstAndLastName[0][1] = "Döppes";
 
-        firstAndLastName[1][0] = "Tim";
+        firstAndLastName[1][0] = "Tim ";
         firstAndLastName[1][1] = "Schildger";
 
-        firstAndLastName[2][0] = "Finn";
+        firstAndLastName[2][0] = "Finn ";
         firstAndLastName[2][1] = "Rothmann";
 
-        firstAndLastName[3][0] = "Julian";
+        firstAndLastName[3][0] = "Julian ";
         firstAndLastName[3][1] = "Ulbing";
 
-        firstAndLastName[4][0] = "Marco";
+        firstAndLastName[4][0] = "Marco ";
         firstAndLastName[4][1] = "Reus";
 
         // Äußere for-Schleife: Zeilenindex  => k
@@ -302,12 +302,12 @@ public class Main {
 
         for(int k = 0; k < firstAndLastName.length; k++) {
             for(int l = 0; l < firstAndLastName[k].length; l++) {
-                System.out.println(firstAndLastName[k][l] + " ");
+                System.out.print(firstAndLastName[k] [l]);
             }
             System.out.println();
         }
 
-        // ???? warum ausgabe nicht Nils Döppes? sondern mit Zeilenumbruch
+        //
 
 
 
