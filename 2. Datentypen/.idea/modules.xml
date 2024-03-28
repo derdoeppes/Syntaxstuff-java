@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Syntaxstuff.iml" filepath="$PROJECT_DIR$/Syntaxstuff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datentypen.iml" filepath="$PROJECT_DIR$/Datentypen.iml" />
     </modules>
   </component>
 </project>
